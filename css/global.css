@@ -1,0 +1,44 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Fire Sans', Arial, Helvetica, sans-serif;
+  color: #141414;
+}
+
+h1,
+h2,
+h3,
+p,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.subtitulo {
+  font-size: 10rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 5ch;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 4.6rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}
